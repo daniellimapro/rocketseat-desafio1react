@@ -6,6 +6,7 @@
 
 body {
   font-size: 14px;
+  padding: 20px
 }
 
 div {
@@ -16,6 +17,8 @@ div {
 div li {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 10px;
 }
 
 div li + li {
